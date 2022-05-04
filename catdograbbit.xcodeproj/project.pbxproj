@@ -13,6 +13,7 @@
 		FE91B5A42822B7C4009B734C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE91B5A22822B7C4009B734C /* Main.storyboard */; };
 		FE91B5A62822B7C6009B734C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE91B5A52822B7C6009B734C /* Assets.xcassets */; };
 		FE91B5A92822B7C6009B734C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE91B5A72822B7C6009B734C /* LaunchScreen.storyboard */; };
+		FE91B5B12822B8C3009B734C /* CatDogRabbitRecognitionModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FE91B5B02822B8C3009B734C /* CatDogRabbitRecognitionModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE91B5A52822B7C6009B734C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE91B5A82822B7C6009B734C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE91B5AA2822B7C6009B734C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE91B5B02822B8C3009B734C /* CatDogRabbitRecognitionModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatDogRabbitRecognitionModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FE91B5A52822B7C6009B734C /* Assets.xcassets */,
 				FE91B5A72822B7C6009B734C /* LaunchScreen.storyboard */,
 				FE91B5AA2822B7C6009B734C /* Info.plist */,
+				FE91B5B02822B8C3009B734C /* CatDogRabbitRecognitionModel.mlmodel */,
 			);
 			path = catdograbbit;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE91B5B12822B8C3009B734C /* CatDogRabbitRecognitionModel.mlmodel in Sources */,
 				FE91B5A12822B7C4009B734C /* ViewController.swift in Sources */,
 				FE91B59D2822B7C4009B734C /* AppDelegate.swift in Sources */,
 				FE91B59F2822B7C4009B734C /* SceneDelegate.swift in Sources */,
